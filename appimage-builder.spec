@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 Name:           appimage-builder
 Version:        0.8.1
 Release:        1

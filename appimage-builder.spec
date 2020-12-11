@@ -8,8 +8,10 @@ URL:            https://github.com/AppImageCrafters/appimage-builder
 Source0:        https://github.com/AppImageCrafters/appimage-builder/archive/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:  pkgconfig(python)
+BuildRequires:  python3dist(setuptools)
 
 Requires:       python
+Requires:       python3dist(setuptools)
 
 %description
 It's a tool for packing applications along with all of its dependencies using the system package manager to obtain binaries and resolve dependencies. 

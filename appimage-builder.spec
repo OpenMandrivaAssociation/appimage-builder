@@ -14,6 +14,17 @@ BuildRequires:  python3dist(setuptools)
 
 Requires:       python
 Requires:       python3dist(setuptools)
+Requires:       python3dist(pyyaml)
+Requires:       docker
+Requires:       python3dist(docker)
+Requires:       python3dist(requests)
+Requires:       python3dist(packaging)
+Requires:       
+#Requires:      python3dist(schema)
+#Requires:      questionary (python-questionary)
+#Requires:      bash.py
+#Requires:      emrichen
+
 
 %description
 It's a tool for packing applications along with all of its dependencies using the system package manager to obtain binaries and resolve dependencies. 

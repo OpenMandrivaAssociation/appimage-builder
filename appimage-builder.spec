@@ -42,10 +42,15 @@ One binary, many target systems.
 %autosetup -p1 -n %{name}-%{version}
 
 %build
-#python setup.py build
 %py_build
 
 %install
-#python setup.py install --root=%{buildroot}
 %py_install
+
 %files
+%{_bindir}/appimage-builder
+%{_bindir}/appimage-inspector
+%{_bindir}/appimage-modules
+%{_bindir}/appimage-tester
+%{python_sitelib}/appimage_builder-%{version}-py*.*.egg-info
+%{python_sitelib}/appimagebuilder/*

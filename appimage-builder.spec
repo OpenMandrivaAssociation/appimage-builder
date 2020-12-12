@@ -19,7 +19,7 @@ Requires:       docker
 Requires:       python3dist(docker)
 Requires:       python3dist(requests)
 Requires:       python3dist(packaging)
-Requires:       
+ 
 #Requires:      python3dist(schema)
 #Requires:      questionary (python-questionary)
 #Requires:      bash.py
